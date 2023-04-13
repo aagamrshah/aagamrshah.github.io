@@ -32,7 +32,6 @@ abyss:
     post-font-weight: "700"
     default-button-color: ""
     social-color-footer : "#CCCCCC"
-    btn-bkg-color: "#999999"
 
 dark: 
     name: dark
