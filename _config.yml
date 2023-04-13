@@ -11,7 +11,7 @@
 title: Aagam Shah 
 email: aagam2@illinois.edu
 description: # a minimalistic jekyll theme for academics
-baseurl: "https://aagamrshah.github.io/"                                      # the subpath of your site, e.g. /blog
+baseurl:                                      # the subpath of your site, e.g. /blog
 url: "https://aagamrshah.github.io/"          # the base hostname & protocol for your site, e.g. http://example.com
 image:           # used to generate site link preview
 image_alt: # A minimalistic jekyll theme for academic    # image description
