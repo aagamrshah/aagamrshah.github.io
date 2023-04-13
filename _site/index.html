@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+
+<html>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+  The above 2 meta tags *must* come first in the <head>
+  to consistently ensure proper document rendering.
+  Any other head element should come *after* these tags.
+ -->
+<title>Aagam Shah</title>
+<!-- Set the base URL for all relative URLs within the document -->
+<base href="http://localhost:4000">
+
+<!--
+  Allows control over where resources are loaded from.
+  Place as early in the <head> as possible, as the tag  
+  only applies to resources that are declared after it.
+-->
+
+<!-- Short description of the document (limit to 150 characters) -->
+<!-- This content *may* be used as a part of search engine results. -->
+<meta name="description" content="">
+
+<!-- Control the behavior of search engine crawling and indexing -->
+<meta name="robots" content="index,follow"><!-- All Search Engines -->
+<meta name="googlebot" content="index,follow"><!-- Google Specific -->
+
+<!-- Verify website ownership -->
+<meta name="google-site-verification" content=""><!-- Google Search Console -->
+<meta name="yandex-verification" content=""><!-- Yandex Webmasters -->
+<meta name="msvalidate.01" content=""><!-- Bing Webmaster Center -->
+<meta name="alexaVerifyID" content=""><!-- Alexa Console -->
+<meta name="p:domain_verify" content=""><!-- Pinterest Console-->
+<meta name="norton-safeweb-site-verification" content=""><!-- Norton Safe Web -->
+
+<!-- Allows control over how referrer information is passed -->
+<meta name="referrer" content="no-referrer">
+
+<!-- Disable automatic detection and formatting of possible phone numbers -->
+<meta name="format-detection" content="telephone=true">
+
+<!-- Completely opt out of DNS prefetching by setting to "off" -->
+<meta http-equiv="x-dns-prefetch-control" content="on">
+
+<!-- Geo tags -->
+<!-- meta name="ICBM" content="latitude, longitude"-->
+<!-- meta name="geo.position" content="latitude;longitude"-->
+<!-- meta name="geo.region" content="country[-state]"><Country code (ISO 3166-1): mandatory, state code (ISO 3166-2): optional; eg. content="US" / content="US-NY" -->
+<!-- meta name="geo.placename" content="city/town"><eg. content="New York City" -->
+
+<!-- Link to an external CSS file -->
+<link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Courgette&family=Lobster&family=Pacifico&family=Yellowtail&family=Noto+Sans+JP:wght@400;900&family=Poppins:wght@500&family=Righteous&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/css/main.css">
+<!-- BootStrap CDN --> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<script src="https://kit.fontawesome.com/b31343d87a.js" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script> 
+
+<!--  GIT TALK CDN  for comment system -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script> 
+
+
+<!-- Provides information about an author or another person -->
+<link rel="me" href="mailto:aagam2@illinois.edu">
+<link rel="me" href="sms:+">
+
+<!-- Open Search -->
+<!-- link rel="search" href="/open-search.xml" type="application/opensearchdescription+xml" title="Search Title" -->
+
+<!-- Feeds -->
+<!-- link rel="alternate" href="https://feeds.feedburner.com/example" type="application/rss+xml" title="RSS" -->
+<!-- link rel="alternate" href="https://example.com/feed.atom" type="application/atom+xml" title="Atom 0.3" -->
+
+<!-- For IE 10 and below -->
+<!-- Place favicon.ico in the root directory - no tag necessary -->
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/favicon-16x16.png">
+<link rel="mask-icon" href="/assets/img/icons/safari-pinned-tab.svg" color="#5bbad5">
+
+<meta property="fb:app_id" content="">
+<meta property="og:url" content="http://localhost:4000">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Aagam Shah, ">
+<meta property="og:image" content="">
+<meta property="og:image:alt" content="">
+<meta property="og:description" content="">
+<meta property="og:site_name" content="Aagam Shah">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="Aagam Shah">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@">
+<meta name="twitter:creator" content="@">
+<meta name="twitter:url" content="http://localhost:4000">
+<meta name="twitter:title" content="">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="">
+<meta name="twitter:image:alt" content="">
+
+<!-- Used for adding in-document CSS -->
+
+
+
+<!-- JavaScript & No-JavaScript tags -->
+
+<link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@10.5.0/styles/monokai-sublime.min.css">
+<script src="https://unpkg.com/@highlightjs/cdn-assets@10.5.0/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script src="https://unpkg.com/@highlightjs/cdn-assets@10.5.0/languages/go.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<!--
+<script>
+    $(document).ready(function() {
+        $(".toast").toast('show');
+    });
+</script> -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B0CD0C5TDR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-B0CD0C5TDR);
+</script>
+
+<noscript>
+  <!-- No JS alternative -->
+</noscript>
+  <body style="background-color:;">
+    
+<nav class="navbar navbar-expand-lg glowing-border mb-4" style="font-family:Poppins;background-color:#304C89;">
+  <a class="navbar-brand" href="/index.html"><h4 style="font-family:Noto Sans JP;font-weight:600;color:#9EB7E5;">Aagam Shah</h4></a>
+  <button class="navbar-toggler text-#000000" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-caret-down" style="color: #e8e5da;"></i>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+        
+              <li class="nav-item">
+                  <a href="research.html" class="nav-link" style="font-family:Poppins;color:#9EB7E5;">Research</a>
+              </li>
+        
+              <li class="nav-item">
+                  <a href="software.html" class="nav-link" style="font-family:Poppins;color:#9EB7E5;">Software</a>
+              </li>
+        
+              <li class="nav-item">
+                  <a href="talks.html" class="nav-link" style="font-family:Poppins;color:#9EB7E5;">Talks</a>
+              </li>
+        
+              <li class="nav-item">
+                  <a href="resume.html" class="nav-link" style="font-family:Poppins;color:#9EB7E5;">Resume</a>
+              </li>
+        
+              <li class="nav-item">
+                  <a href="personal.html" class="nav-link" style="font-family:Poppins;color:#9EB7E5;">Personal</a>
+              </li>
+        
+    </ul>
+    <ul class="navbar-nav  justify-content-end">
+      <li class="nav-item">
+        
+<!-- Displays Social Media Icons based on _config.yml settings -->
+<span style="color:#CCCCC;">
+    <i> &nbsp;&nbsp; </i>
+    
+    
+        <a class="social-link" href="mailto:aagam2@illinois.edu" target="_blank">
+        <span style="color: #CCCCCC;">
+            <i class="fa-regular fa-envelope fa-xl"></i></a>
+        </span>
+    
+    
+        <a href="https://github.com/aagamrshah" target="_blank">
+        <span style="color: #CCCCCC;">
+            <i class="fa-brands fa-github fa-xl"></i></a>
+        </span>
+    
+    
+        <a href="https://www.linkedin.com/in/aagamshah228" target="_blank">
+        <span style="color: #CCCCCC;">
+            <i class="fa-brands fa-linkedin fa-xl"></i></a>
+        </span>
+    
+    
+    
+    
+     
+    <i> &nbsp;&nbsp; </i>
+</span>
+
+      </li>
+    </ul>
+  </div>
+</nav>
+
+    <div class="dumbarton-spacer-sm"></div>
+    <div class="container">
+      
+
+<!--  HELP TIPS SECTION  -->
+<!-- used only for develop mode, disable these in _config.yml with `help_tips: false` -->
+
+
+<!-- ABOUT ME SECTION -->
+<div class="card mx-auto border-0" style="position:relative;background-color:;">
+  <div class="row">
+    <div class="col-md-4">
+      
+        <img src="/assets/img/avatar/aagam_headshot.jpg" class="img-thumbnail float-left animate__animated animate__fadeInLeft shadow bg-white rounded" alt="...">
+      
+    </div>
+    <!-- DESCRIPTION SECTION -->
+    <div class="col-md-8">
+      
+      <div class="card-body animate__animated animate__fadeInRight" style="color:;">
+      
+        <p style="color:;"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
+
+<h3 id="aagam-shah">Aagam Shah</h3>
+<p>I am a PhD student in <a href="https://matse.illinois.edu/"><span style="color:blue">Materials Science and Engineering</span></a> at the <a href="https://www.illinois.edu/"><span style="color:blue">University of Illinois Urbana-Champaign</span></a>, where I conduct research as part of the <a href="https://tawfick.mechse.illinois.edu/"><span style="color:blue">Tawfick group</span></a> and the <a href="https://oasis.mechse.illinois.edu/"><span style="color:blue">Ertekin group</span></a> under the <a href="http://nanomfgnode.illinois.edu/"><span style="color:blue">nanoMFG node</span></a>. My work focusses on using Bayesian statistics to develop active-learning predictive models for graphene synthesis by chemical vapour deposition, and for powder bed fusion processes. I also use and develop supervised and unsupervised techniques to analyse electron and optical microscopy images. I love to tinker around with additive manufacturing techniques, exploring the use of fascinating structures in everyday life. My other interests include swimming, squash, and hiking.</p>
+
+<p>
+<a href="mailto:aagam2@illinois.edu" target="_blank">
+    <span style="color: #000000;">
+        <i class="fa-regular fa-envelope fa-2xl"></i>
+    </span>
+</a>&ensp;
+<a href="https://github.com/aagamrshah" target="_blank">
+    <span style="color: #000000;">
+        <i class="fa-brands fa-github fa-2xl"></i>
+    </span>
+</a>&ensp;
+<a href="https://linkedin.com/in/aagamshah228" target="_blank">
+    <span style="color: #000000;">
+        <i class="fa-brands fa-linkedin fa-2xl"></i>
+    </span>
+</a>&ensp;
+<a href="http://localhost:4000/assets/pdf/20230413_resume.pdf" target="_blank">
+    <span style="color: #000000;">
+        <i class="fa-solid fa-c fa-2xl"></i><i class="fa-solid fa-v fa-2xl"></i>
+    </span>
+</a>&ensp;
+<a href="https://scholar.google.com/citations?user=Jx7m2aUAAAAJ&amp;hl=en" target="_blank">
+    <span style="color: #000000;">
+        <i class="ai ai-google-scholar fa-2xl"></i>
+    </span>
+</a>&ensp;
+</p>
+<p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="dumbarton-spacer"></div>
+
+<!-- EDUCATION SECTION -->
+<div class="card mx-auto border-0" style="position:relative;background-color:;">
+  <div class="row">
+    <div class="col-md-6">
+      
+      <div class="card-body animate__animated animate__fadeInRight" style="color:;">
+      
+        
+           
+  <h5 class="card-title" style="font-family:Noto Sans JP;font-size:24px;color:;"><b> Education </b></h5>
+  <ul class="list-unstyled">
+  
+    <li class="media">
+      <a href="https://illinois.edu/" target="_blank"><img src="/assets/img/icons/2x/uiuc.png" class="mr-3" alt="..."></a>
+      <div class="media-body">
+        <h5 style="font-family:Noto Sans JP;font-size:18px;color:;"><a href="https://illinois.edu/" target="_blank">University of Illinois Urbana-Champaign</a></h5>
+        <p style="font-family:Noto Sans JP;font-size:15px;color:;"><i>Materials Science and Engineering</i></p>
+        
+          
+            
+              <p>Ph.D., 2019 - 2024 <i>(expected)</i></p>
+            
+          
+        
+      </div>
+    </li>
+    
+    <li class="media">
+      <a href="https://iitgn.ac.in/" target="_blank"><img src="/assets/img/icons/2x/iitgn.png" class="mr-3" alt="..."></a>
+      <div class="media-body">
+        <h5 style="font-family:Noto Sans JP;font-size:18px;color:;"><a href="https://iitgn.ac.in/" target="_blank">Indian Institute of Technology Gandhinagar</a></h5>
+        <p style="font-family:Noto Sans JP;font-size:15px;color:;"><i>Materials Science and Engineering</i></p>
+        
+          
+            
+              <p>B.Tech. (with Honours), 2015 - 2019</p>
+            
+          
+        
+      </div>
+    </li>
+    
+  </ul>
+        
+      </div>
+    </div>
+    <!-- INTERESTS SECTION -->
+    <div class="col-md-6">
+      
+      <div class="card-body animate__animated animate__fadeInRight" style="color:;">
+      
+        
+          
+<h5 class="card-title" style="font-family:Noto Sans JP;font-size:24px;color:;"><b> Interests </b></h5>
+<ul>
+
+  <li style="font-family:Noto Sans JP;font-size:18px;color:;margin-bottom:0.3cm;">
+    Additive Manufacturing
+  </li>
+  
+  <li style="font-family:Noto Sans JP;font-size:18px;color:;margin-bottom:0.3cm;">
+    Machine Learning
+  </li>
+  
+  <li style="font-family:Noto Sans JP;font-size:18px;color:;margin-bottom:0.3cm;">
+    Bayesian Statistics
+  </li>
+  
+  <li style="font-family:Noto Sans JP;font-size:18px;color:;margin-bottom:0.3cm;">
+    2D Materials
+  </li>
+  
+  <li style="font-family:Noto Sans JP;font-size:18px;color:;margin-bottom:0.3cm;">
+    Chemical Vapour Deposition
+  </li>
+  
+  <li style="font-family:Noto Sans JP;font-size:18px;color:;margin-bottom:0.3cm;">
+    Computer Vision
+  </li>
+  
+</ul>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- style="font-family:Poppins;background-color:#304C89; -->
+
+<!-- HOME HIGHLIGHTS SECTION 
+
+<div class="card mx-auto animate__animated animate__slideInUp animate__delay-1s glowing-border" style="max-width: 100%;">
+
+  <div class="card-header" style="background-color:#304C89;">
+    <ul class="nav nav-tabs card-header-tabs" id="test-list" role="tablist">
+      
+    </ul>
+  </div>
+  <div class="card-body">          
+      <div class="tab-content mt-3">
+        
+      </div>
+  </div>
+</div> -->
+
+
+
+<!-- ANIMATE.JS ANIMATE LIBRARY
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous"></script>
+-->
+
+
+<!--JS FUNCTION FOR RECENT WORK SECTION -->
+<script>
+    $('#test-list a').on('click', function (e) {
+    e.preventDefault()
+    $(this).tab('show')
+    })
+</script> 
+
+<!-- OPTIONAL TOAST JS FUNCTION-->
+<script>
+    $(document).ready(function() {
+        $(".toast").toast("show");
+    });
+</script>
+
+
+<script>
+$('body').scrollspy({ target: '#list-example' })
+</script>
+
+<script>
+$('.collapse').collapse()
+</script>
+
+<script>
+$('.show').show()
+</script>
+
+    </div>
+    <div class="dumbarton-spacer-sm"></div>
+    <div class="navbar navbar-default navbar-fixed-bottom" style="background-color:#304C89;">
+  <div class="container">
+    <p class="navbar-text pull-left" style="font-family:Poppins;color:#9EB7E5;">© 2023, Aagam Shah
+    </p>
+    <p class="navbar-text pull-right">
+            <!-- Displays Social Media Icons based on _config.yml settings -->
+
+<span style="color:#CCCCC;">
+     
+    
+    <a class="btn btn-primary btn" href="mailto:aagam2@illinois.edu" target="_blank" role="button" style="border-color:#CCCCCC;color:#CCCCCC;background-color:#304C89">aagam2@illinois.edu</a>
+    
+    
+        <a href="https://github.com/aagamrshah" target="_blank">
+        <span style="color: #CCCCCC;">
+            <i class="fa-brands fa-github fa-2xl"></i></a>
+        </span>
+    
+    
+        <a href="https://www.linkedin.com/in/aagamshah228" target="_blank">
+        <span style="color: #CCCCCC;">
+            <i class="fa-brands fa-linkedin fa-2xl"></i></a>
+        </span>
+    
+    
+    
+    
+     
+    <i> &nbsp;&nbsp; </i>
+</span>
+
+    </p>
+  </div>
+</div> 
+
+<script>
+  $(function () {
+    $('[data-toggle="popover"]').popover()
+  })
+</script>
+  </body>
+</html>
