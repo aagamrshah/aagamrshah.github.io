@@ -8,30 +8,31 @@
 # -----------BASE SETTINGS---------------#
 #========================================#
 
-title: Dumbarton 
-email: 
-description: a minimalistic jekyll theme for academics
+title: Aagam Shah 
+email: aagam2@illinois.edu
+description: # a minimalistic jekyll theme for academics
 baseurl:                                       # the subpath of your site, e.g. /blog
-url: "https://dumbarton.netlify.app/"          # the base hostname & protocol for your site, e.g. http://example.com
-image: /assets/img/dumbarton.png               # used to generate site link preview
-image_alt: A minimalistic jekyll theme for academic    # image description
+url: "https://aagamrshah.github.io/"          # the base hostname & protocol for your site, e.g. http://example.com
+image: /assets/img/homepage.png               # used to generate site link preview
+image_alt: # A minimalistic jekyll theme for academic    # image description
+google-tag: G-B0CD0C5TDR
 
 # =======================================#
 # -----------SITE SETTINGS---------------#
 #========================================#: 
-author: John Doe 
-profile_image: /assets/img/avatar/cropped.png #/assets/img/avatar/avatar.jpeg 
+author: Aagam Shah 
+profile_image: /assets/img/avatar/aagam_headshot.jpg #/assets/img/avatar/avatar.jpeg 
 occupation: 
 snippet:
-twitter: tbutler0x90
-github: tcbutler320
-linkedin: tyler-b-a700a1aa
-stackoverflow: '12935605'
-website: https://tbutler.org
+twitter: 
+github: aagamrshah
+linkedin: aagamshah228
+stackoverflow:
+website: https://aagamrshah.github.io
 codepen: 
 medium: 
-email: developer.tbutler@gmail.com
-keybase: tbutler320
+email: aagam2@illinois.edu
+keybase:
 pgp: 
 ctftime: 
 phonenumber: 
@@ -46,7 +47,7 @@ ui_theme: abyss                                 # Create your own theme by setti
 # -----------BLOG SETTINGS---------------#
 #========================================#
 
-tags:  post jekyll styleguide ipsum
+tags:  # post jekyll styleguide ipsum
 twitter-widget: false # true,false                  # Used to show your twitter timeline on blog home page
 
 comments: false                                     # Used to enable comments on blog posts
@@ -71,7 +72,8 @@ animate: true                                        # false or true, uses anima
 # =======================================#
 # -----------HOME PAGE  SETTINGS --------#
 #========================================#
-home_option: education                               # options: education, skills, timeline
+home_option: education                               # options: education, skills, timeline, interests
+home_option_2: interests                             # options: education, skills, timeline, interests
 
 # =======================================#          # These  settings are for demo purposes only, things like 
 # -----------HELP SETTINGS---------------#          #     popup toasts and tooltips designed to help new 
@@ -98,6 +100,7 @@ sass:
 
 
 include:
+  - _myprojects
   - _posts
 
 exclude:
@@ -116,7 +119,7 @@ exclude:
 # -----JEKYLL SCHOLAR SETTINGS-----------#
 #========================================#
 scholar:
-  last_name: Dumbarton
+  last_name: Shah
   style: apa
   locale: en
   source: /_bibliography/
@@ -133,7 +136,7 @@ scholar:
 # ------------CDN SETTINGS---------------#
 #-------------Used to generate icons-----#
 #========================================#
-font_awesome_id: 32a2b2a489                       # Register for free at https://fontawesome.com/ to get your id
+font_awesome_id: b31343d87a                       # Register for free at https://fontawesome.com/ to get your id
 
 
 # =======================================#        # For more information about these settings, visit https://htmlhead.dev #
@@ -153,53 +156,54 @@ fbappid:                                          # Facebook OpenGraph
 
 
 pgp-key: "-----BEGIN PGP PUBLIC KEY BLOCK-----
-mQINBF8SaxABEACxPxrYnHj8RlC7d1DyZDdlNREADaAEJDvWmILBWE4aYVOVyxSA
-yQ3gXYaOb0zoDR8r1tLtvDVfBtQKEK8KQWN8ZFQI/PAj2FVMtnqncFyIEwKXVOXO
-sgC3VKJBUvMXDChInXVUa4vs8varqLneTmAYi16bloLS1zL9Z7S CILbjSTUOyCz
-gmum8ea0IqFCqD8Lg2MSiWRax6F2HI/4RepgPCxzs51EhEkTMG80U3H8VxRlmpA5
-1gmUkhNaHSFujPPHI0k6ArnIrDiz/ouV3kESfGxDaOKedPZmxeWQtl7S2HEKXPrN
-ugeg1l8ny7Gh vIDnfbAjhMjHD0t0dXcW2lc77Le8IyXWfCqvAJvuB0DImV039KL
-cLRzbDa19L2C0dFTy2eKSyQOiQwhyu1JoxVW oLYeyCuL0Ptl4LRnlLbH9iYwCCs
-lx1piJ0YSDoSS2XJULNssJUO7wAejXua8t41gWuYqWZW1IE4Bvcox0H3sFh8tDG/
-jhJBg5E2Lwkg7LOWlBB9QFcnKk0qrIFZ2vtWUfrqr22iU7mStJ8b46Gttra8Nywl
-6rk0v/tPzMRwi3uHSCbcfzWgKOy8AyRI1Bwj9xAq7r9lYUe/eEXZeQMfJEYhq3Fu
-c3xVhMjKQO6r4Y2hmDmEesKHvOkKQ0q lY jt4zKUrXfQj0ebUtcqBtbWwARAQAB
-tCRUeWxlciBCdXRsZXIgPHRjYnV0bGVyMzIwQGdtYWlsLmNvbT6JAlQEEwEIAD4W
-IQTIZh5ulP tFioqo3V1ojT/iPmcGgUCXxJrEAIbAwUJB4YfgAULCQgHAgYVCgkI
-CwIEFgIDAQIeAQIXgAAKCRB1ojT/iPmcGi6XEACZPnJwRTSLesAows E gjIAk3E
-KQPCBjpH3XHln6SYNk3yy7RG6mNjYf5r6I2lfvcpbyvnuNszk/Am0Q2buU/ncEe/
-kAS2rtqeDkmroPwuE nWz/v /8uujsHujgS9xJngljGVNecFfjkENvAh4j163LPz
-iySahEbM6praHAZBQhC5lHpBi rrnOUk/q5Uk5kIfMvRWKVqAYARyMkyc6yy5chd
-JGsDtx51h62j1MxyrHFCxJ319iNh5EEKhEeyu7jfM2jWAp/PA eMfj7jAnhJeQJ0
-30Wrohg6LXnM7l2P12EY 9rcctIhe2xvM1nHhnqm8kiNCXHF3M755uhCxY4pygT4
-zM2UatcY3fFXlkvOvkFaLgTwD9scJZVnTM jo0m9/HjuXVsVr4IDmKFBWX5HhjAA
-ySXMObjuqXScy4mEg0QvfBSQsv40sVadWAGnsa5SHIXnSn8T22jNyiH7QhMG3LVr
-duAiXSWHs Y1FsTrV2J43fmG5Y/ZgbOitQPMQWft7SRoR4uqGBLA7z2xC2WSgHzt
-Vz EFvykiaX6LOpPo79Pt nx5DDMPhXucxHBdYcxl7wyD6CbU4vz/Nd5c0ZMdMXb
-eMAZ77LvmhPZOs7fbpJwKJAbviyc1b8M5SQir1s7cUfRcUSBmYoWHn55wO7bLmrt
-uAlOeI3W2K7e3/J LbkCDQRfEmsQARAAx9zAyPT3RMrr38Rz9sPaJoL8eVCf5rio
-xokBE7iBDl3r jDfLLFQX7nDkNwqAg vfVB6X0uL1JMokq0F4xoBjcz56eF9p4dG
-V5QieTLJsVz5glQ2jLkt/D7Sqi6AWi9vDT/w2EuKTHsE30Kp0kOLirEXhc 2h8Dv
-3P/TcJ8Rjl2W6QqFytQbkxulbe/PkHge75RNz/vG7jv859VRUX0XrYTC4iQGiAGj
-F0LW uVdX8cTTutmrvM yhY53Nk8/NRHYjOeF4fIomxX67EsGSwwFZu3aXClDklh
-7tXav1otuUwhODeWMSyBgE0X79wUrPBT6SpXFlmtYA0JyuHrlsTicQnUYkoGzfrF
-MSPOY9mU2eXgiFrVwYeD2j2G4KG9jNUcQguSjzA3vEpZK9NtTukj3HzQkttGLBb8
-if7DtNxHhrkpmHqOzM55c4QbKBvGAFDwqocn0uH0N7qt8I1vC9W4KH//DxSbpZdY
-SFpuYdaXCORaAX0VEGMikdChV6k26EjHprPoIQJ7clJjlEiGaOtp IKoGgnOXMF5
-6B8Spm7JJ8sULobDDNNvRgstjmABJoLJDa0kPs9WkIJXLIUO12vPLMb05guju0oL
-jYkhkMm9o5MUN qjy/A48FgOqbz9bZ/lOvso76N  L4Hhb6MxSPtNnL5GMl7o7pk
-r8qPoVOKyc0AEQEAAYkCPAQYAQgAJhYhBMhmHm6U/60WKiqjdXWiNP I ZwaBQJf
-EmsQAhsMBQkHhh AAAoJEHWiNP I ZwaMZQQAJg6NCfHpvFfr9c8/odmt/zEXUpx
-42eB2tIFaTd/MSu5QI9rXuV6l2naC9dHBStPrpj2acCyvjeFfsxJ9VJjg3ToZH5B
-MJ2l2z28wkMiMhZw/mIPecLwEPyaYNY68 gM1XfBB4e3pmMdMdWMa5WZrC5WVwF 
-exn84KNqUSmKmkIfU/WC95CfyiVQYcjdj OstFJMSMeg54KZGLJsRPDnWM83HZOk
-WZ4yaiUBEExOI0maIMFm1pYH3n lE28IHPq1RZ0r0ci9WrU8uqwU8/T4r2H/1Yd1
-a7LsuO61ERI2N7AED9QtI9uH5U8d8dbatK0Xjf2F4Wc5ErRIDzTaS2MZh2aTYKY 
-BrBj7clRYzTf/LNeZv6okYkvxYPsudy4MPvjDijnHEsoUph7gx AFG6Co0V3onA/
-emH6M9uqUa5CqZ3qZ1N ePWVarevdgsmQwQj649toluk0F7gkZZboM/gqBhh4g9p
-V9wEOwAFNzdZTFd16YG/C3ZOpz9Dn8rYe0pq5dePS 4INr5aD6hjj4hDtV9nbzOM
-mkZ6xvnnyzHls4FOqcJRHgn4GPxwNo/y5Y9WDqAV6qZ6jpz8n1JZV9KxDjcq0 BI
-Mt0zmeZBXaX3/7LDS75dEYL2uCxVAqxftzIal6dF8hOEEJoRXOkgCKC1IY2 iH3J
-UOmZxPhE6x7ZQcKO
-=IkuM
+xsBNBGQnWhcBCACvwybEpmWAZFLJ9ALzSY351IAR0a7XrqZs9m/IAYQwNaX5FvJw
+ieoMOxE9x86ZbvZ7ghvsFOJjdhc6diQbWhhmYd2wKMnrn4bmM97SMuzfy6RtBIde
+M7G4BthE+3I6Qe1o1rqOYzW1bz+5EFi4e2Frch9HXPHc7hoPgfQ5I3ghyNIEPIa/
+WyTncJNh7DIjYTKSwWMdWW/Dz53FKChHX17sAmfEWkPW+uhV65JikY7t5LjC5tMy
+16bCp3W0kVBiXuPYQdm9eiqcwm2xjL+bHaRGXqRrNEwZS1uq49N++7SIPHgDHPgD
+JC0/8BEvq9oHcs4sXDSest0JlsiKbzsvcQHfABEBAAHNHUFhZ2FtIFNoYWggPGFy
+c3Ryc0BnbWFpbC5jb20+wsB6BBMBCgAkBQJkJ1oXAhsvAwsJBwMVCggCHgECF4AD
+FgIBAhkBBQkAAAAAAAoJEHgxccsaz3JK1tIH/1UZVOJ/6q1fMeaB5/EHQtt6d6EJ
+/lVN0thg1AQXWaDJ5xjmtFw0k+P00YnAl69Hfw3/cMlCMx4Fg2SHd3lFCVPNjLuI
++btCKeRgtA7uDyiIFYMBV+/8gwb3kXeZE0XgeCD9JIfB6cgMEEqpdOkExnB8eyiW
+H2rsk+Q+7ndsiarIuhcsn/6Qclk0IkxD6udzOBu72R8AJiChxMD3uNU7iB+Eo2Ki
+kRUij8iS7fkKvqBFLjc6/g+utu6WkRiv6yrs+9dauOkEJM7u29quvaUxiDg1j2ky
+nJJmItSdtZBZqclW0ooEXmYFoCp5nQ+rKC98q0Qiw5p2La74rPwh/eLlM8LOwE0E
+ZCdaFwEIAMSAEAwzv770UiO1jwfp3Ne5yxGRdd0FZbN9LqRCZQ1R9c/cWWvj1gdr
+QBerXxGYt4lKFFVWe5iYgw4iuhSg+CaM4Yxa1wiTQDbDYbtKB0zw9+CVgkGxasyT
+h+ib0QoMH3YjxHZJpw8HHMiBeQ2eIyTgZgkMB365BWa5qRRjcbJ1isgMl+EV5iVQ
+xh4jf6QOZhhAhjWNSoAP0DpDUpAbGjkDPp3ByZlEgWMDlBBnFoE8UV0ttx/XA4ud
+5GkVybLdtUrIcAgj7WiSmSkCVI95IatcGWfWbpPQ4BrFL7tgO/yTUWbNwX8CLRmJ
+tdQJp/Eh7hxm0PQQ1i/nAoifVVaUKU0AEQEAAcLBhAQYAQoADwUCZCdaFwUJAAAA
+AAIbLgEpCRB4MXHLGs9ySsBdIAQZAQoABgUCZCdaFwAKCRBo+nrTV5vEd8AgB/4o
+tVxq7p0XLmIkV5TAOH61/CCSDcPrGmdyELBkXNXzPElkeX+SQ34DCdf355RtxakJ
+1qXTKQROsMlNnE52GlWnJDDizPCfrQcIJUlK4MDVVqcyZP+EV+tDQfQUbn07Rcmi
+Ts/cdPKL1r6KHbFujAyL9cDiruIwxQa2a6OWtZZFLgOS4GSfMnXpqgsnjrHcw0fh
+TWBNOZP7dopwCZeC30slExrExxyIYMCGCQVnPGywAvS7vp6RQ2IhFwR5dEq4ym50
+84q2O9hEnN8vnssSSodiD93jmPX3ux1ynMkScU4j3lzLWeBqXbWsdYJi45RZAQdZ
+jHeTjGw44Lq6O3zxm/0YF1wH/RVXowfc7UZSAm09ntBWH989eKgd4mWjxCW+E7ey
+LcdqDZ4NpwZsNn5EhIhCNXLfCJ4SP1RqaUyS0KoH8NwUOFiXfsvQhdmdMHk+h4q8
+aJYw+KbCFiehPwybhWHBtr8hLxP6Qu6DR3qJATAWfu6vn4aVwBPuNoz+epmzo/mT
+siuMy3HnNr3qA6FFAAZWteAEGPOqDWvEfIQ0Dmd5K/6180RIWeiUzBfPbzPpu20M
+WjS9js5rKOrap7kJNSWmTzVRETMSJd9qmFrDiEzzJoDmQr0crnPgt3/iNsFlMIue
+aqPSw+JRC4hJ6i8TzqNp56Waq3J8BDocbmPlgDARFfqVcqbOwE0EZCdaFwEIAN87
+nBFGF0wCpwAYzbXMBwIfBPxWwMf7Dzh4JeQ1yAIeOo40mURGw4TFt4jBFaf+wqao
+ABH+Z1GMexypCsJz9ok3u/IgnE0r5kQbEVu7ZW9pPXf4cgIwHsXt/Bz7MrW+yGPW
+e3Hm9H3t9PjCFXTLnBLdmYyU5+4z4S6GoMWWHag3xAssVtgBaENcgf/hns7zLdvk
+jRIiVPpZYGfHHaw1GbbF7RaDp6g7jv80hKh75oDAbqUE9S0WDS5PQYUmwIKlH63R
+1BY8j/oEciGfzBChiK85TtNMe91xwlYNt9+uzYr0nL7BhGQNKpVOfA+t3Y1rqKXM
+WzdtXIdhvvRJd86c/a0AEQEAAcLBhAQYAQoADwUCZCdaFwUJAAAAAAIbLgEpCRB4
+MXHLGs9ySsBdIAQZAQoABgUCZCdaFwAKCRAViO3dzbPvIGDgCACPYPcJi1FANLp4
+VCXtHHZt9qjt8bOx3bqmp6OMjkwmy/F6qFapYgwZrZ90czTuN86Kvo8d8SQY7iOn
+w+jOnllkK8XNBSVERTyPtOjkLlNBezHth1gp1DdSeFCJuUZxpAOmzHcNAfRwOlr9
+jT14MR5YRma4fJRgzey/d+Lk2ZzAFhq5XKVtulYTsTtPzx00xzMuu9l9491SpKZe
+m6SDSP9yLEk4YkwIcqgUPsrUugrIB/IpTL7sItsLA1aAmF6ZOY2tPZaZNVYvY2fr
+CZENyOstwHNQb+PFI3LrOOGPfRLYkDKpCg4qFWz93iwopOvueUEmjpPEYutnwfr/
+zwZFOoxuvkcIAIJ5MghsY1xYoHFEatI/0vTXDudX0sknJcT3omfBOA9gnm/P8Qzl
+yYytMaisPec7AKMPnBQ28su2SwaSf5gXHfWUPTYetgh/5yoquyoRUztI0v7+WiZ4
+4Jg1nIw9Nbtc5gvZa3Qlm7/R5WeJrwRspBq3sGDi7bewGJZpvSd9rPzhtZbHitvs
+diuBMjuWFXH9IjVkjA6ihFCBzrApsEuF2NbjtBXsGy/NyQQIOL2/I7pIYYSgjoeE
+tR/fB48K0OMKG5Odu/rBcG9vfDqaeRyTTVQHCvaGtIyfDmvublCx9NvpTO+PjCX4
+ttXnrpHPLBXYeZeCvlgU++4oHIpOxjih5Wg=
+=VzSK
 -----END PGP PUBLIC KEY BLOCK-----"

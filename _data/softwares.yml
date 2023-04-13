@@ -1,0 +1,23 @@
+- name: Gr-ResQ Tool
+  description: Query submit and analyse graphene sythesis data
+  image: /assets/img/software/gresq.png
+  website: https://nanohub.org/tools/gresq
+  github: nanoMFG/gsamain
+  
+- name: Graphene Raman Fitting Tool
+  description: Analyze Raman spectra from graphene
+  image: /assets/img/software/graft.png
+  website: https://nanohub.org/tools/graft
+  github: nanoMFG/gsa-raman
+
+- name: SEM Image Segmentation Tool
+  description: This tool introduces users to machine learning used to segment microscopy images
+  image: /assets/img/software/imagesegment.png
+  website: https://nanohub.org/tools/imagesegment
+  github: nanoMFG/nanohub_workshop_2021
+
+- name: SEM Image Processing Tool
+  description: Analysis and feature detection in SEM images of Graphene
+  image: /assets/img/software/gsaimage.png
+  website: https://nanohub.org/tools/gsaimage
+  github: nanoMFG/gsa-image

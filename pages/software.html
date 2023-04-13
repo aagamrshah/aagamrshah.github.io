@@ -1,0 +1,40 @@
+---
+layout: page
+permalink: /software.html
+title: Software
+description: 
+header-img:  
+last-updated: 2020-10-30 5:55 PM
+---
+
+{% assign theme = site.data.themes[site.ui_theme] %}
+<!-- Page Content -->
+<!-- Current Projects -->
+<div class="blogcard mb-4" style="width: 100%;">
+  <div class="card-body">
+    <h5 class="card-title text-center" style="font-size:{{ theme.post-title-size }};font-weight:{{ theme.post-font-weight }};">{{page.title}}</h5>
+  </div>
+</div>
+<!-- CARDS -->
+<div class="card mx-auto border-0" style="position:relative;background-color:{{theme.home-background-color}};width:100%;">
+  <div class="row">
+    <!-- CARD COLUMN 1 -->
+    {% for software in site.data.softwares %}
+      {% if site.animate %}
+        <div class="card col-md border-1 float-left animate__animated animate__fadeInLeft bg-white shadow rounded" style="margin:5px;">
+      {% else %}
+        <div class="card col-md border-1 float-left bg-white shadow rounded">
+      {% endif %}  
+          <div class="card-body">
+            <h5 class="card-title">{{software.name}}</h5>
+            <p class="card-text"> {{software.description}}</p>
+          </div>
+          <img src="{{ software.image }}" class="img-thumbnail float-left border-1 rounded" alt="...">
+          <div class="card-body">
+            <a class="btn btn-primary btn-md" href="{{software.website}}" target="_blank" role="button" style="background-color:#648DE5;color:#FFFFFF">Website</a>
+            <a class="btn btn-primary btn-md" href="https://github.com/{{software.github}}" target="_blank" role="button" style="background-color:#648DE5;color:#FFFFFF">Github</a>
+          </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

@@ -1,17 +1,17 @@
 nav_list_title: Navigation List
 links:
 
-- title: About
-  url: about.html
+- title: Research
+  url: research.html
 
-- title: Publications
-  url: publications.html
+- title: Software
+  url: software.html
 
-- title: Blog
-  url: blog.html
+- title: Talks
+  url: talks.html
 
-- title: Vitae
-  url: /assets/pdf/vitae.pdf
+- title: Resume
+  url: resume.html
 
-- title: Contact
-  url: contact.html
+- title: Personal
+  url: personal.html

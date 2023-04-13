@@ -1,0 +1,56 @@
+---
+layout: page
+permalink: research.html
+title: Research
+subtitle1: Current Projects
+subtitle2: Past Projects
+subtitle3: Journal Articles
+header-img: 
+last-updated: 2020-10-30 5:55 PM
+---
+{% assign theme = site.data.themes[site.ui_theme] %}
+<!-- Page Content -->
+<!-- Current Projects -->
+<div class="blogcard mb-4" style="width: 100%;">
+  <div class="card-body">
+    <h5 class="card-title text-center" style="font-size:{{ theme.post-title-size }};font-weight:{{ theme.post-font-weight }};">Current Projects</h5>
+  </div>
+</div>
+<div class="row">
+  <!-- Blog Entries Column -->
+  <div class="col-md-12">
+    <p>{{ content | markdownify }} </p>
+  </div>
+</div>
+<!-- Publications -->
+<div class="blogcard mb-4" style="width: 100%;">
+  <div class="card-body">
+    <h5 class="card-title text-center" style="font-size:{{ theme.post-title-size }};font-weight:{{ theme.post-font-weight }};">Journal Publications</h5>
+  </div>
+</div>
+<div class="blogcard mb-4" style="width: 100%;">
+  <div class="card-body">
+    {% bibliography -f papers %}
+  </div>
+</div>
+<!-- Past Porjects -->
+<div class="blogcard mb-4" style="width: 100%;">
+  <div class="card-body">
+    <h5 class="card-title text-center" style="font-size:{{ theme.post-title-size }};font-weight:{{ theme.post-font-weight }};"><a href="/pastprojects.html"><u>Past Projects</u></a></h5>
+  </div>
+</div>
+<div class="row">
+  <!-- Blog Entries Column 
+  <div class="col-md-12">
+  {% for project in site.posts %}
+      <div class="blogcard {{project.card}} mb-4 mt-4" style="width: 100%;">
+        <h3><a href="{{ project.url }}" class="nohighlight">{{ project.title }}</a></h3>
+          <a href="#" class="badge badge-primary" style="background-color: rgba(78, 34, 208, 0.1);color: #4e22d0;">{{project.tag}}</a>  
+        <p>{{project.description}}</p>
+        <p><i>{{project.lead}}</i></p>
+      </div>
+  {% endfor %}
+  </div>-->
+</div>
+
+

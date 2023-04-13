@@ -1,6 +1,15 @@
-- School: Princeton
-  Degree: 
-  Program: School of Public and International Affairs
-  Start Date: 
-  End Date: 
-  Icon: /assets/img/icons/2x/princeton-crop.png      # Make this icon small, think 30px/30px
+- School: University of Illinois Urbana-Champaign
+  Degree: Ph.D.
+  Program: Materials Science and Engineering
+  StartDate: 2019
+  EndDate: 2024 <i>(expected)</i>
+  Icon: /assets/img/icons/2x/uiuc.png      # Make this icon small, think 30px/30px
+  url: https://illinois.edu/
+
+- School: Indian Institute of Technology Gandhinagar
+  Degree: B.Tech. (with Honours)
+  Program: Materials Science and Engineering
+  StartDate: 2015
+  EndDate: 2019
+  Icon: /assets/img/icons/2x/iitgn.png      # Make this icon small, think 30px/30px
+  url: https://iitgn.ac.in/
