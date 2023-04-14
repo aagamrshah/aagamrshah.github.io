@@ -24,7 +24,7 @@ I am a PhD student in [<span style="color:blue">Materials Science and Engineerin
         <i class="fa-brands fa-linkedin fa-2xl"></i>
     </span>
 </a>&ensp;
-<a href="http://localhost:4000/assets/pdf/20230413_resume.pdf" target="_blank">
+<a href="/assets/pdf/20230413_resume.pdf" target="_blank">
     <span style="color: #000000;">
         <i class="fa-solid fa-c fa-2xl"></i><i class="fa-solid fa-v fa-2xl"></i>
     </span>
