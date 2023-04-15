@@ -47,6 +47,6 @@ MRS Spring/Fall Meeting 2020 | Online | November 2020 \
 <a class="btn btn-primary btn-md" href="https://nanohub.org/resources/34738" target="_blank" role="button" style="background-color:#648DE5;color:#FFFFFF"> Hosted on nanohub.org</a>
 <a class="btn btn-primary btn-md" href="https://www.youtube.com/watch?v=VagRsuPrctQ" target="_blank" role="button" style="background-color:#648DE5;color:#FFFFFF">YouTube Link</a>
 
-### 1. U-Net Convolutional Neural Networks for Image Segmentation: Application to Scanning Electron Microscopy Images of Graphene
+### 2. U-Net Convolutional Neural Networks for Image Segmentation: Application to Scanning Electron Microscopy Images of Graphene
 <a class="btn btn-primary btn-md" href="https://nanohub.org/resources/34744" target="_blank" role="button" style="background-color:#648DE5;color:#FFFFFF"> Hosted on nanohub.org</a>
 <a class="btn btn-primary btn-md" href="https://www.youtube.com/watch?v=yS8K-l7Xk5A" target="_blank" role="button" style="background-color:#648DE5;color:#FFFFFF">YouTube Link</a>
