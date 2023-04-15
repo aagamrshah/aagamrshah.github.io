@@ -3,6 +3,7 @@
 .jekyll-cache
 .sass-cache
 Gemfile.lock
+_site/*
 
 # Demo Site 
 /Demo
