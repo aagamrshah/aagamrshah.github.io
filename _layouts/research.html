@@ -28,17 +28,26 @@ last-updated: 2020-10-30 5:55 PM
     <h5 class="card-title text-center" style="font-size:{{ theme.post-title-size }};font-weight:{{ theme.post-font-weight }};">Journal Publications</h5>
   </div>
 </div>
-<div class="blogcard mb-4" style="width: 100%;">
-  <div class="card-body">
-    <p>lololo</p>
+{% for entry in site.data.bib %}
+  <a href="{{entry.URL}}" target="_blank">
+    <div class="blogcard mb-4" style="width: 100%;">
+      <div class="card-body">
+        <h5 style="color:black">{{entry.title}}</h5>
+        <p style="color:gray; font-size:100%"><i>{{entry.journal}}</i> ({{entry.year}}) </p>
+        <p style="color:black">{{entry.author}}<br></p>
+        <p style="color:gray; font-size:90%">{{entry.comment}}</p>
+      </div>
+    </div>
+  </a>
+{% endfor %}
+<!-- Past Projects -->
+<a href="/pastprojects.html">
+  <div class="blogcard mb-4" style="width: 100%;">
+    <div class="card-body">
+      <h5 class="card-title text-center" style="font-size:{{ theme.post-title-size }};font-weight:{{ theme.post-font-weight }};">Past Projects</h5>
+    </div>
   </div>
-</div>
-<!-- Past Porjects -->
-<div class="blogcard mb-4" style="width: 100%;">
-  <div class="card-body">
-    <h5 class="card-title text-center" style="font-size:{{ theme.post-title-size }};font-weight:{{ theme.post-font-weight }};"><a href="/pastprojects.html"><u>Past Projects</u></a></h5>
-  </div>
-</div>
+</a>
 <div class="row">
   <!-- Blog Entries Column 
   <div class="col-md-12">
