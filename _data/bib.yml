@@ -1,13 +1,12 @@
 - id: shah2023automated
-  title: Automated Image Segmentation of Scanning Electron Microscopy Images of Graphene Using U-Net Neural Network 
-  doi: 10.2139/ssrn.4373023 
-  journal: SSRN
-  author: Ertekin, Elif, Tawfick, Sameh, Adams, Darren, Ramos, Isiah, Schiller, Joshua and <b>Shah, Aagam </b>
+  title: Automated image segmentation of scanning electron microscopy images of graphene using U-Net Neural Network
+  doi: 10.1016/j.mtcomm.2023.106127
+  journal: Materials Today Communications
+  author: <b>Shah, Aagam </b>, Schiller, Joshua, Ramos, Isiah, Serrano, James, Adams, Darren, Tawfick, Sameh and Ertekin, Elif
   year: 2023
-  URL: https://doi.org/10.2139/ssrn.4373023
-  eprint: https://doi.org/10.2139/ssrn.4373023
-  html: https://doi.org/10.2139/ssrn.4373023
-  comment: Submitted to Materials Today Communications
+  URL: https://doi.org/10.1016/j.mtcomm.2023.106127
+  eprint: https://doi.org/10.1016/j.mtcomm.2023.106127
+  html: https://doi.org/10.1016/j.mtcomm.2023.106127
 
 - id: schiller2020crowd
   author: Schiller, Joshua A., Toro, Ricardo, <b>Shah, Aagam</b>, Surana, Mitisha, Zhang, Kaihao, Robertson, Matthew, Miller, Kristina, Cruse, Kevin, Liu, Kevin, Seong, Bomsaerah, Seol, Chae, Foster, Ian T., Blaiszik, Ben J., Galewsky, Ben, Adams, Darren, Katz, Daniel S., Ferreira, Placid, Ertekin, Elif and Tawfick, Sameh
