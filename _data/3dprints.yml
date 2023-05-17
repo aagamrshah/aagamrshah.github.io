@@ -1,0 +1,49 @@
+- name: Shot Glass Display
+  description: A rotating display for my collection of shot glasses.
+  image: /assets/img/3dprints/shotglassdisplay.png
+  cad_files: https://www.printables.com/model/483829-shot-glass-display
+  
+- name: Kitchen Hook
+  description: A hook to hang pots and pans to dry or if they are too big to fit into the cabinets.
+  image: /assets/img/3dprints/kitchenhook.png
+  cad_files: https://www.printables.com/model/483849-kitchen-hook
+
+- name: Lal Minar ++
+  description: A to-scale model of the Lal Minar at IIT Gandhinagar. Added a small holder for a watch to keep my daily use watches' lume charged. 
+  image: /assets/img/3dprints/lalminar.jpg
+  cad_files: https://www.printables.com/model/483856-lal-minar
+
+- name: Phone Stand
+  description: A stand for my phone using the tension of nylon fishing lines. Designed by Luke's 3D.
+  image: /assets/img/3dprints/phonestand.png
+  cad_files: https://www.printables.com/model/172726-impossible-phone-stand
+
+- name: Headphone Holder
+  description: A modular holder for my headphone that "plugs" into one of the many dead wall ports. It is designed such that it can be used in different configurations and do things other than hold headphones. 
+  image: /assets/img/3dprints/headphoneholder.jpg
+  cad_files: https://www.printables.com/model/483867-headphone-holder
+
+- name: Coasters
+  description: A set of coasters built on the designs of Iron Man's "hearts".
+  image: /assets/img/3dprints/coasters.png
+  cad_files: https://www.printables.com/model/483870-coasters
+
+- name: Laptop Dock
+  description: A dock to hold my laptop and its USB adapter when it is plugged into the wall and connected to an external monitor.
+  image: /assets/img/3dprints/laptopdock.jpg
+  cad_files: https://www.printables.com/model/483874-laptop-dock
+
+- name: Pump Adapter
+  description: An adapter that connects a new commercial pump to my old out-of-circulation air mattress. 
+  image: /assets/img/3dprints/pumpadapter.png
+  cad_files: https://www.printables.com/model/483886-pump-adapter
+
+- name: Phone Mount for GoPro accessories
+  description: A mount that lets me attach my phone to GoPro accessories
+  image: /assets/img/3dprints/phonegopro.png
+  cad_files: https://www.printables.com/model/239793-phone-mount-for-gopro-accessories
+
+# - name: Pen Holder
+#   description: A fun, monogrammed holder for pens and other desk accessories
+#   image: /assets/img/3dprints/penstand
+#   cad_files: 
