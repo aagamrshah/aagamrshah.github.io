@@ -5,6 +5,16 @@
   to consistently ensure proper document rendering.
   Any other head element should come *after* these tags.
  -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google-tag }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{ site.google-tag }});
+</script>
+
 <title>{{ site.title }}</title>
 <!-- Set the base URL for all relative URLs within the document -->
 <base href="{{ site.url }}">
@@ -123,16 +133,6 @@
         $(".toast").toast('show');
     });
 </script> -->
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google-tag }}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', '{{ site.google-tag }});
-</script>
 
 <noscript>
   <!-- No JS alternative -->
