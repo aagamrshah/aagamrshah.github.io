@@ -9,3 +9,5 @@ Gemfile.lock
 /Demo
 *.sh 
 *.xml
+.DS_Store
+*/.DS_Store
