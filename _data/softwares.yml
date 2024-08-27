@@ -1,9 +1,9 @@
-- name: Gr-ResQ Tool
-  description: Query submit and analyse graphene sythesis data
-  image: /assets/img/software/gresq.png
-  website: https://nanohub.org/tools/gresq
-  github: nanoMFG/gsamain
-  
+- name: LPBF CS Image Analysis Tool
+  description: Suite of tools for analysis of cross sectional images of LPBF melt tracks
+  image: /assets/img/software/unetsegment.png
+  website: https://github.com/nanoMFG/lpbf-cs-image-analysis/
+  github: nanoMFG/gsa-image
+
 - name: Graphene Raman Fitting Tool
   description: Analyze Raman spectra from graphene
   image: /assets/img/software/graft.png
@@ -16,6 +16,12 @@
   website: https://nanohub.org/tools/imagesegment
   github: nanoMFG/nanohub_workshop_2021
 
+- name: Gr-ResQ Tool
+  description: Query submit and analyse graphene sythesis data
+  image: /assets/img/software/gresq.png
+  website: https://nanohub.org/tools/gresq
+  github: nanoMFG/gsamain
+  
 - name: SEM Image Processing Tool
   description: Analysis and feature detection in SEM images of Graphene
   image: /assets/img/software/gsaimage.png

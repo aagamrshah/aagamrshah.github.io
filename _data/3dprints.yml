@@ -1,3 +1,33 @@
+- name: Watch Strap
+  description: A replacement strap for my watch.
+  image: /assets/img/3dprints/watchstrap.jpg
+  cad_files: https://www.printables.com/model/987867-watch-strap
+
+# - name: Tie
+#   description: A 3D printed tie that I wore to an office party. 
+#   image: /assets/img/3dprints/shotglassdisplay.png
+#   cad_files: https://www.printables.com/model/483829-shot-glass-display
+
+- name: Sunglass Case
+  description: A magnetic case with a lattice hinge design for my clip-on sunglasses.
+  image: /assets/img/3dprints/sunglass_case.jpg
+  cad_files: https://www.printables.com/model/987858-sunglass-case
+
+- name: Door Knobs
+  description: A couple of door knobs for random doors in my house.
+  image: /assets/img/3dprints/knobs.png
+  cad_files: https://www.printables.com/model/987851-door-knobs
+
+- name: Custom Insole
+  description: A pair of custom insoles for my feet. 
+  image: /assets/img/3dprints/insole.jpg
+  cad_files: https://www.printables.com/model/987847-custom-insole
+
+- name: Formlabs Logo Phablet Stand
+  description: A stand for a phone or tablet with the Formlabs logo.
+  image: /assets/img/3dprints/FL_phablet_stand.png
+  cad_files: https://www.printables.com/model/987845-formlabs-logo-phonetablet-stand
+
 - name: Shot Glass Display
   description: A rotating display for my collection of shot glasses.
   image: /assets/img/3dprints/shotglassdisplay.png

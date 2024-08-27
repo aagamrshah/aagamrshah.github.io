@@ -1,6 +1,8 @@
 - Name: Additive Manufacturing
   Icon: /assets/img/icons/2x/3dp_logo.png      # Make this icon small, think 30px/30px
 
+- Name: Chemical Vapour Deposition
+
 - Name: Machine Learning
   Icon: /assets/img/icons/2x/ai_logo.png      # Make this icon small, think 30px/30px
 
@@ -8,7 +10,5 @@
   Icon: /assets/img/icons/2x/stats_logo.png      # Make this icon small, think 30px/30px
 
 - Name: 2D Materials
-
-- Name: Chemical Vapour Deposition
 
 - Name: Computer Vision
