@@ -132,8 +132,8 @@ a.highlighted:hover {
 }
 
 .timeline-event-icon {
-  @include transition(transform 0.2s ease-in);
-  @include rotate (45deg);
+  transition: transform 0.2s ease-in;
+  transform: rotate(45deg);
   
   background-color: $color-1;
   outline: 10px solid $color-2;
@@ -467,7 +467,7 @@ background-color: #FF6600
 .highlight .il { color: #0086f7; font-weight: bold } /* Literal.Number.Integer.Long */
 
 
-S - card-header Bootstrap 4CSS
+/* Remove the unnecessary line */
  .heading-footer 
 { 
 background-image: url(bg.jpg); 
@@ -708,4 +708,16 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
   width:100%;
   display: flex;
   justify-content: center;
+}
+
+.uniform-height {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.uniform-height-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 95%;
 }

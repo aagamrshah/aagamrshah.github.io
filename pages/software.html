@@ -16,25 +16,30 @@ last-updated: 2020-10-30 5:55 PM
   </div>
 </div>
 <!-- CARDS -->
-<div class="card mx-auto border-0" style="position:relative;background-color:{{theme.home-background-color}};width:100%;">
-  <div class="row">
-    <!-- CARD COLUMN 1 -->
-    {% for software in site.data.softwares %}
-      {% if site.animate %}
-        <div class="card col-md border-1 float-left animate__animated animate__fadeInLeft bg-white shadow rounded" style="margin:5px;">
-      {% else %}
-        <div class="card col-md border-1 float-left bg-white shadow rounded">
-      {% endif %}  
-          <div class="card-body">
-            <h5 class="card-title">{{software.name}}</h5>
-            <p class="card-text"> {{software.description}}</p>
+<div class="card mx-auto border-0 uniform-height" style="position:relative;background-color:{{theme.home-background-color}};width:100%;">
+  <div class="container">
+    <div class="row">
+      <!-- CARD COLUMN 1 -->
+      {% for software in site.data.softwares %}
+        {% if site.animate %}
+          <div class="col-md-4">
+            <div class="card border-1 animate__animated animate__fadeInLeft bg-white shadow rounded uniform-height-card" style="margin:5px;">
+        {% else %}
+          <div class="col-md-4">
+            <div class="card border-1 bg-white shadow rounded uniform-height-card">
+        {% endif %}
+              <div class="card-body">
+                <h5 class="card-title">{{software.name}}</h5>
+                <p class="card-text">{{software.description}}</p>
+              </div>
+              <img src="{{ software.image }}" class="img-thumbnail float-left border-1 rounded" alt="...">
+              <div class="card-body">
+                <a class="btn btn-primary btn-md" href="{{software.website}}" target="_blank" role="button" style="background-color:#648DE5;color:#FFFFFF">Website</a>
+                <a class="btn btn-primary btn-md" href="https://github.com/{{software.github}}" target="_blank" role="button" style="background-color:#648DE5;color:#FFFFFF">Github</a>
+              </div>
+            </div>
           </div>
-          <img src="{{ software.image }}" class="img-thumbnail float-left border-1 rounded" alt="...">
-          <div class="card-body">
-            <a class="btn btn-primary btn-md" href="{{software.website}}" target="_blank" role="button" style="background-color:#648DE5;color:#FFFFFF">Website</a>
-            <a class="btn btn-primary btn-md" href="https://github.com/{{software.github}}" target="_blank" role="button" style="background-color:#648DE5;color:#FFFFFF">Github</a>
-          </div>
-      </div>
-    {% endfor %}
+      {% endfor %}
+    </div>
   </div>
 </div>
